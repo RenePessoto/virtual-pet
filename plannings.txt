@@ -1,0 +1,65 @@
+tamagochi level(self.level):
+	if  health == 100: 
+		after 6 hours level++
+	elif health >= 50 or <= 99
+		after 24 hours level++
+	else level == level
+
+tamagochi growth(level)
+	when level = 0:
+		tamagochi = baby
+	when level = 5:
+		tamagochi = kid
+	when level = 15:
+		tamagochi = teen
+	when level = 30:
+		tamagochi = adult
+	when level = 50:
+		tamagochi = fabulous
+	when level = 100 && life 100
+		tamagochi = elder
+	when level = 150 && life 100 
+		tamagochi = mythical
+
+tamagochi type (lvl == 5):
+	aqua 
+	ground
+	fly
+
+tamagochi stats (fast,strong,stealth) 
+	
+	if stats == fast:
+		return claws,fangs,tail
+	
+	elif stats == strong:
+		return cannon,laser beam,throw
+	
+	else stats == stealth:
+		return poison,invisibility
+
+tamagochi atributes(day,night,twilight)
+
+	while:
+		atributes == day:
+			aqua = [fish,turtle,frog]
+			ground = [dig, dog,snake]
+			fly=[pidgeon,butterfly,bee]
+		break
+
+		atributes == night:
+			aqua = [crab,,]
+			ground = [,cat,]
+			fly=[owl,,bat]
+		break
+
+Elder = max stats, types(2)
+
+mythical= Day[(Dragon,Phoenix,Sphinx)]
+		  Night[(Hydra,Shadow,Manticore)]
+
+
+Skill (physical,intelligent,social)
+
+	physical = strong,fast
+	intelligent= elemental,weapons
+	social= stealth,toxic
