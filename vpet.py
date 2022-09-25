@@ -18,13 +18,7 @@ class Virtual_Pet:
         
     def __init__(self,name=input('Name of the pet:')):
         self.name = name
-        self.life = Virtual_Pet.__life
         self.age = Virtual_Pet.__age
-        self.type = Virtual_Pet.__type
-        self.skill = Virtual_Pet.__skill
-        self.feed = Virtual_Pet.__feed
-        self.happiness = Virtual_Pet.__happiness
-        self.stamina = Virtual_Pet.__stamina
         self.level = Virtual_Pet.__level
         self.health = Virtual_Pet.__health
         print(f'The {name.title()} just born! He/she is level {self.level}, is a {self.age} and their health is at {self.health} percent.')
@@ -87,6 +81,7 @@ class Virtual_Pet:
             return self.type
     
     def new_skill(self):
+        self.skill=Virtual_Pet.__skill
         if self.skill['social'] > 30:
             self.attribute = 'Stealth!'
         elif self.skill['physical'] > 30:
@@ -97,6 +92,7 @@ class Virtual_Pet:
             return
 
     def death_alert(self):
+        self.life=Virtual_Pet.__life
         if self.health < 15:
             warning ('You must do something right now!!!')
         elif self.health == 0:
