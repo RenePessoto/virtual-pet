@@ -41,25 +41,24 @@ tamagochi atributes(day,night,twilight)
 
 	while:
 		atributes == day:
-			aqua = [fish,turtle,frog]
-			ground = [dig, dog,snake]
-			fly=[pidgeon,butterfly,bee]
+			aqua = 
+			ground = 
+			fly=
 		break
 
 		atributes == night:
-			aqua = [crab,,]
-			ground = [,cat,]
-			fly=[owl,,bat]
+			aqua = 
+			ground = 
+			fly=
 		break
 
 Elder = max stats, types(2)
 
-mythical= Day[(Dragon,Phoenix,Sphinx)]
-		  Night[(Hydra,Shadow,Manticore)]
-
+mythical= 
 
 Skill (physical,intelligent,social)
 
 	physical = strong,fast
 	intelligent= elemental,weapons
 	social= stealth,toxic
+

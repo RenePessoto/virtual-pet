@@ -30,8 +30,15 @@ class Virtual_Pet:
         print(f'The {name.title()} just born! He/she is level {self.level}, is a {self.age} and their health is at {self.health} percent.')
 
     def give_food(self):
-        if self.feed < 90:
-            return self.feed + 10
+        while self.feed < 100:
+            print('I need to eat something!')
+            self.feed + 10
+            self.stamina + 5
+
+    def wake_up(self):
+        while self.stamina < 50:
+            print('I am tired!')
+            self.stamina +=10
         
     def play_strong(self):
         while self.happiness <= 75:
